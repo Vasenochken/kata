@@ -19,7 +19,7 @@ devServer: {
     open: true,
     hot: true,
 },
-entry: ['@babel/polyfill', path.resolve(__dirname, 'src', 'index.js')],
+entry: ['@babel/polyfill', path.resolve(__dirname, './src/js', 'index.js')],
 output: {
         path: path.resolve(__dirname, 'dist'),
         clean: true,

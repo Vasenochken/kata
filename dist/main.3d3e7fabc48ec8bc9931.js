@@ -9605,9 +9605,27 @@ __webpack_require__.r(__webpack_exports__);
 // Imports
 
 var ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./img/photo__logo.jpg */ "./src/img/photo__logo.jpg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_1___ = new URL(/* asset import */ Object(function webpackMissingModule() { var e = new Error("Cannot find module './.img/brands__swiper/lenovo.svg'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands__swiper/samsung.svg */ "./src/img/brands__swiper/samsung.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands__swiper/apple.svg */ "./src/img/brands__swiper/apple.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands__swiper/viewsonic.svg */ "./src/img/brands__swiper/viewsonic.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands__swiper/bosch.svg */ "./src/img/brands__swiper/bosch.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands__swiper/hp.svg */ "./src/img/brands__swiper/hp.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_7___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands__swiper/acer.svg */ "./src/img/brands__swiper/acer.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_8___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands__swiper/sony.svg */ "./src/img/brands__swiper/sony.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_9___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands__swiper/lenovo.svg */ "./src/img/brands__swiper/lenovo.svg"), __webpack_require__.b);
 // Module
 var ___HTML_LOADER_REPLACEMENT_0___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);
-var code = "<!DOCTYPE html>\n<html lang=\"ru\">\n    <head>\n        <meta charset=\"utf-8\">\n        <meta name=\"keywords\" content=\"сервис, Dell, ремонт ноутбуков, ремонт техниики Dell\">\n        <meta name=\"description\" content=\"Мы являемся авторизованным серивсным центром по ремонту техники Dell\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n        <title>Услуги и сервисы</title>\n    </head>\n    <body>\n        <header class=\"header-page\">\n            <div class=\"header-wrapper left\">\n                <button class=\"button button--icon-menu\"></button>\n                <svg class=\"logo\"></svg>\n            </div>\n            <div class=\"header-wrapper right\">\n                <button class=\"button button--icon-call\"></button>\n                <button class=\"button button--icon-chat\"></button>\n                <button class=\"button button--icon-login\"></button>\n                <button class=\"button button--icon-enroll\"></button>\n                <button class=\"button button--icon-status\"></button>\n            </div>\n        </header>\n        <main class=\"main-content\">\n          <div class=\"main-content__header-title\">\n                <h1 class=\"header-title__title-text\">Услуги и сервисы</h1>\n                <label class=\"label-button\">\n                    Оставить заявку<button class=\"button button--icon-enroll\"></button>\n                </label>\n                <label class=\"label-button\">\n                    Проверить статус<button class=\"button button--icon-status\"></button>\n                </label>\n          </div>\n            <nav class=\"main-content__nav-menu\">\n                <ul class=\"main-content__list-menu\">\n                    <li class=\"main-content__item-menu--active\">\n                        <a class=\"main-content__link-menu--active\" href=\"#\">Ремонтируемые устройства</a>\n                    </li>\n                    <li class=\"main-content__item-menu\">\n                        <a class=\"main-content__link-menu\" href=\"#\">Дополнительные услуги</a>\n                    </li>\n                    <li class=\"main-content__item-menu\">\n                        <a class=\"main-content__link-menu\" href=\"#\">Цены на услуги</a>\n                    </li>\n                    <li class=\"main-content__item-menu\">\n                        <a class=\"main-content__link-menu\" href=\"#\">Адреса сервисных центров</a>\n                    </li>\n                    <li class=\"main-content__item-menu\">\n                        <a class=\"main-content__link-menu\" href=\"#\">Специальные цены</a>\n                    </li>\n                    <li class=\"main-content__item-menu\">\n                        <a class=\"main-content__link-menu\" href=\"#\">Отзывы</a>\n                    </li>\n                </ul>\n            </nav>\n            <article class=\"main-content__intro\">\n                <div class=\"main-content__description\">\n                    <p class=\"main-content__text-p1\">Мы являемся авторизованным сервисным центром по ремонту техники\n                    Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>\n                    <p class=\"main-content__text-p2\">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера\n                        <span class=\"main-content__text-p2--hidden\">, что подтверждает большое количество постоянных клиентов.\n                    Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою\n                    очередь, советуют нас родным и близким.</span></p>\n                    <button class=\"button-readmore\">Читать далее</button>\n                </div>\n                <div class=\"main-content__photo\">\n                    <img class=\"main-content__img\" src=\"" + ___HTML_LOADER_REPLACEMENT_0___ + "\" alt=\"Фото таблички с логотипом компании\">\n                </div>\n            </article>\n            <section class=\"brands\">    \n                <h2 class=\"subtitle\">Ремонт техники различных брендов</h2>\n            </section>\n            <section class=\"devices\">\n                <h2 class=\"subtitle\">Ремонт различных видов техники</h2>\n            </section>\n            <section class=\"price\">\n                <h2 class=\"subtitle\">Цены на услуги</h2>\n                <div class=\"slaaider\"></div>\n                <div class=\"price-info\">\n                    <p class=\"price-info__description-text\">Все цены указаны с учетом НДС.\n                        Стоимость ремонта указана на единичную услугу. \n                        Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.\n                    </p>\n                    <label>\n                        Получить коммерческое предложение\n                        <button ></button>\n                    </label>\n                </div>\n            </section>\n        </main>\n        <footer class=\"footer-page\">\n            <p class=\"footer-page__text\">© 2019 CPS\n                Разработано командой Apesong</p>\n            <p class=\"footer-page__text\">Политика конфиденциальности</p>\n            <p class=\"footer-page__text\">Информация, размещенная на данной\n                странице, не является публичной офертой</p>\n        </footer>\n    </body>\n</html>";
+var ___HTML_LOADER_REPLACEMENT_1___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_1___);
+var ___HTML_LOADER_REPLACEMENT_2___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_2___);
+var ___HTML_LOADER_REPLACEMENT_3___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_3___);
+var ___HTML_LOADER_REPLACEMENT_4___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_4___);
+var ___HTML_LOADER_REPLACEMENT_5___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_5___);
+var ___HTML_LOADER_REPLACEMENT_6___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_6___);
+var ___HTML_LOADER_REPLACEMENT_7___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_7___);
+var ___HTML_LOADER_REPLACEMENT_8___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_8___);
+var ___HTML_LOADER_REPLACEMENT_9___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_9___);
+var code = "<!DOCTYPE html>\n<html lang=\"ru\">\n    <head>\n        <meta charset=\"utf-8\">\n        <meta name=\"keywords\" content=\"сервис, Dell, ремонт ноутбуков, ремонт техниики Dell\">\n        <meta name=\"description\" content=\"Мы являемся авторизованным серивсным центром по ремонту техники Dell\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n        <title>Услуги и сервисы</title>\n    </head>\n    <body>\n        <header class=\"header-page\">\n            <div class=\"header-wrapper left\">\n                <button class=\"button button--icon-menu\"></button>\n                <svg class=\"logo\"></svg>\n            </div>\n            <div class=\"header-wrapper right\">\n                <button class=\"button button--icon-call\"></button>\n                <button class=\"button button--icon-chat\"></button>\n                <button class=\"button button--icon-login\"></button>\n                <button class=\"button button--icon-enroll\"></button>\n                <button class=\"button button--icon-status\"></button>\n            </div>\n        </header>\n        <main class=\"main-content\">\n          <div class=\"main-content__header-title\">\n                <h1 class=\"header-title__title-text\">Услуги и сервисы</h1>\n                <label class=\"label-button\">\n                    Оставить заявку<button class=\"button button--icon-enroll\"></button>\n                </label>\n                <label class=\"label-button\">\n                    Проверить статус<button class=\"button button--icon-status\"></button>\n                </label>\n          </div>\n            <nav class=\"main-content__nav-menu\">\n                <ul class=\"main-content__list-menu\">\n                    <li class=\"main-content__item-menu--active\">\n                        <a class=\"main-content__link-menu--active\" href=\"#\">Ремонтируемые устройства</a>\n                    </li>\n                    <li class=\"main-content__item-menu\">\n                        <a class=\"main-content__link-menu\" href=\"#\">Дополнительные услуги</a>\n                    </li>\n                    <li class=\"main-content__item-menu\">\n                        <a class=\"main-content__link-menu\" href=\"#\">Цены на услуги</a>\n                    </li>\n                    <li class=\"main-content__item-menu\">\n                        <a class=\"main-content__link-menu\" href=\"#\">Адреса сервисных центров</a>\n                    </li>\n                    <li class=\"main-content__item-menu\">\n                        <a class=\"main-content__link-menu\" href=\"#\">Специальные цены</a>\n                    </li>\n                    <li class=\"main-content__item-menu\">\n                        <a class=\"main-content__link-menu\" href=\"#\">Отзывы</a>\n                    </li>\n                </ul>\n            </nav>\n            <article class=\"main-content__intro\">\n                <div class=\"main-content__description\">\n                    <p class=\"main-content__text-p1\">Мы являемся авторизованным сервисным центром по ремонту техники\n                    Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>\n                    <p class=\"main-content__text-p2\">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера\n                        <span class=\"main-content__text-p2--hidden\">, что подтверждает большое количество постоянных клиентов.\n                    Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою\n                    очередь, советуют нас родным и близким.</span></p>\n                    <button class=\"button-readmore\">Читать далее</button>\n                </div>\n                <div class=\"main-content__photo\">\n                    <img class=\"main-content__img\" src=\"" + ___HTML_LOADER_REPLACEMENT_0___ + "\" alt=\"Фото таблички с логотипом компании\">\n                </div>\n            </article>\n            <section class=\"brands\">\n                <h2 class=\"subtitle\">Ремонт техники различных брендов</h2>\n                 <div class=\"swiper\">\n                    <!-- Additional required wrapper -->\n                    <div class=\"swiper-wrapper\">\n                      <!-- Slides -->\n                      <div class=\"swiper-slide brands__item\">\n                        <img class=\"brands__icon\" src=\"" + ___HTML_LOADER_REPLACEMENT_1___ + "\">\n                        <button class=\"button button--icon-go\"></button>\n                      </div>\n                      <div class=\"swiper-slide brands__item\">\n                        <img class=\"brands__icon\" src=\"" + ___HTML_LOADER_REPLACEMENT_2___ + "\">\n                        <button class=\"button button--icon-go\"></button>\n                      </div>\n                      <div class=\"swiper-slide brands__item\">\n                        <img class=\"brands__icon\" src=\"" + ___HTML_LOADER_REPLACEMENT_3___ + "\">\n                        <button class=\"button button--icon-go\"></button>\n                      </div>\n                      <div class=\"swiper-slide brands__item\">\n                        <img class=\"brands__icon\" src=\"" + ___HTML_LOADER_REPLACEMENT_4___ + "\">\n                        <button class=\"button button--icon-go\"></button>\n                      </div>\n                      <div class=\"swiper-slide brands__item\">\n                        <img class=\"brands__icon\" src=\"" + ___HTML_LOADER_REPLACEMENT_5___ + "\">\n                        <button class=\"button button--icon-go\"></button>\n                      </div>\n                      <div class=\"swiper-slide brands__item\">\n                        <img class=\"brands__icon\" src=\"" + ___HTML_LOADER_REPLACEMENT_6___ + "\">\n                        <button class=\"button button--icon-go\"></button>\n                      </div>\n                      <div class=\"swiper-slide brands__item\">\n                        <img class=\"brands__icon\" src=\"" + ___HTML_LOADER_REPLACEMENT_7___ + "\">\n                        <button class=\"button button--icon-go\"></button>\n                      </div>\n                      <div class=\"swiper-slide brands__item\">\n                        <img class=\"brands__icon\" src=\"" + ___HTML_LOADER_REPLACEMENT_8___ + "\">\n                        <button class=\"button button--icon-go\"></button>\n                      </div>\n                      <div class=\"swiper-slide brands__item\">\n                        <img class=\"brands__icon\" src=\"" + ___HTML_LOADER_REPLACEMENT_9___ + "\">\n                        <button class=\"button button--icon-go\"></button>\n                      </div>\n                      <div class=\"swiper-slide brands__item\">\n                        <img class=\"brands__icon\" src=\"" + ___HTML_LOADER_REPLACEMENT_2___ + "\">\n                        <button class=\"button button--icon-go\"></button>\n                      </div>\n                      <div class=\"swiper-slide brands__item\">\n                        <img class=\"brands__icon\" src=\"" + ___HTML_LOADER_REPLACEMENT_3___ + "\">\n                        <button class=\"button button--icon-go\"></button>\n                      </div>\n                    </div>\n                    <div class=\"swiper-pagination\"></div>\n                  </div>\n            </section>\n            <section class=\"devices\">\n                <h2 class=\"subtitle\">Ремонт различных видов техники</h2>\n            </section>\n            <section class=\"price\">\n                <h2 class=\"subtitle\">Цены на услуги</h2>\n                <div class=\"slaaider\"></div>\n                <div class=\"price-info\">\n                    <p class=\"price-info__description-text\">Все цены указаны с учетом НДС.\n                        Стоимость ремонта указана на единичную услугу. \n                        Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.\n                    </p>\n                    <label>\n                        Получить коммерческое предложение\n                        <button ></button>\n                    </label>\n                </div>\n            </section>\n        </main>\n        <footer class=\"footer-page\">\n            <p class=\"footer-page__text\">© 2019 CPS\n                Разработано командой Apesong</p>\n            <p class=\"footer-page__text\">Политика конфиденциальности</p>\n            <p class=\"footer-page__text\">Информация, размещенная на данной\n                странице, не является публичной офертой</p>\n        </footer>\n    </body>\n</html>";
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);
 
@@ -10973,6 +10991,94 @@ module.exports = __webpack_require__.p + "ecf08c49b0b1d4d71f5b.woff";
 
 /***/ }),
 
+/***/ "./src/img/brands__swiper/acer.svg":
+/*!*****************************************!*\
+  !*** ./src/img/brands__swiper/acer.svg ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "a0913e2e343900dc58f6.svg";
+
+/***/ }),
+
+/***/ "./src/img/brands__swiper/apple.svg":
+/*!******************************************!*\
+  !*** ./src/img/brands__swiper/apple.svg ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "de4b265899b5d7ba9163.svg";
+
+/***/ }),
+
+/***/ "./src/img/brands__swiper/bosch.svg":
+/*!******************************************!*\
+  !*** ./src/img/brands__swiper/bosch.svg ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "b51cc6c67d8d9f6e560c.svg";
+
+/***/ }),
+
+/***/ "./src/img/brands__swiper/hp.svg":
+/*!***************************************!*\
+  !*** ./src/img/brands__swiper/hp.svg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "3a5257921b1f415790d2.svg";
+
+/***/ }),
+
+/***/ "./src/img/brands__swiper/lenovo.svg":
+/*!*******************************************!*\
+  !*** ./src/img/brands__swiper/lenovo.svg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "3566a037d14328dd48f1.svg";
+
+/***/ }),
+
+/***/ "./src/img/brands__swiper/samsung.svg":
+/*!********************************************!*\
+  !*** ./src/img/brands__swiper/samsung.svg ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "9fb8f7087b569aa820e0.svg";
+
+/***/ }),
+
+/***/ "./src/img/brands__swiper/sony.svg":
+/*!*****************************************!*\
+  !*** ./src/img/brands__swiper/sony.svg ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "b0b543194fba233d1afb.svg";
+
+/***/ }),
+
+/***/ "./src/img/brands__swiper/viewsonic.svg":
+/*!**********************************************!*\
+  !*** ./src/img/brands__swiper/viewsonic.svg ***!
+  \**********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "2eb062489daa0709e327.svg";
+
+/***/ }),
+
 /***/ "./src/img/photo__logo.jpg":
 /*!*********************************!*\
   !*** ./src/img/photo__logo.jpg ***!
@@ -11127,4 +11233,4 @@ module.exports = __webpack_require__.p + "0f0d9c1588d52ca7273d.jpg";
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=main.d32f39ca6f04ebf8fb3a.js.map
+//# sourceMappingURL=main.3d3e7fabc48ec8bc9931.js.map
