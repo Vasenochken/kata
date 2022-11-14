@@ -1,0 +1,85 @@
+@import 'logo';
+@import 'button';
+
+@media (min-width:320px) and (max-width: 767px) {
+
+.header-page {
+    height: auto;
+    width: 100%;
+    border-bottom: 1px solid #D9FFF5;
+    padding: 0 5.000vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-page::before {
+  content: "";
+  background: #EAEAEA;
+  height: 32px;
+  width: 2px;
+  border-radius: 1px;
+  order: 0;
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5.000vw;
+}
+
+.left {
+    order: -1;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1119px) {
+
+.header-page {
+    height: auto;
+    width: 100%;
+    border-bottom: 1px solid #D9FFF5;
+    padding: 0 3.13vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 2.08vw;
+}
+
+.left::before {
+    content: "";
+    background: #EAEAEA;
+    height: 32px;
+    width: 2px;
+    border-radius: 1px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.right::after {
+    content: "";
+    background: #EAEAEA;
+    height: 32px;
+    width: 2px;
+    border-radius: 1px;
+}
+
+}
+
+@media (min-width: 1119px) and (max-width: 1920px) {
+
+.header-page {
+        display: none;
+}
+
+}
