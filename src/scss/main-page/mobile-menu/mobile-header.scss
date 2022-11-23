@@ -1,0 +1,32 @@
+@media (min-width: 320px) and (max-width: 360px) {
+    .mobile-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 16px;
+        background-color: #FFFFFF;
+      }
+}
+
+@media (min-width: 768px) and (max-width: 1119px) {
+    .mobile-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 24px;
+      }
+}
+
+@media (min-width: 1120px) and (max-width: 1920px) {
+    .mobile-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 31px;
+        padding-left: 22px;
+        padding-top: 20px;
+      }
+}

@@ -1,0 +1,42 @@
+@import 'main-contentHeader-title';
+@import 'main-contentNav-menu';
+@import 'main-contentIntro';
+@import './subtitle';
+@import './button-viewmore';
+@import './section-price/price-info';
+@import './section-price/service-table';
+@import './mobile-menu/mobileMenu';
+
+@media (min-width:320px) and (max-width: 767px) {
+
+    .container {
+
+.main-content {
+    padding-top: 24px;
+    padding-bottom: 40px;
+}
+
+}
+    .hide {
+        display: none;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1119px) {
+.main-content {
+    padding-top: 24px;
+    padding-bottom: 47px;
+}
+    
+}
+
+@media (min-width: 1120px) and (max-width: 1920px) {
+
+.main-content {
+    padding-top: 42px;
+    padding-bottom: 50px;
+    margin-left: 320px;
+}
+    
+}

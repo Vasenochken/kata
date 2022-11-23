@@ -1,0 +1,203 @@
+@media (min-width: 320px) and (max-width: 360px) {
+
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        padding-left: 24px;
+        padding-top: 4.734vh;
+        background-color: #FFFFFF;
+    
+               .footer-buttons {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    padding-bottom: 10px;
+                    justify-content: space-between;
+                    width: 50%;
+                }
+    
+                .contact-info__mail {
+                    height: 24px;
+                    width: 106px;
+                    color: #1B1C21;
+                    font-family: "TT Lakes";
+                    font-size: 16px;
+                    line-height: 24px;
+                    letter-spacing: -0.20000000298023224px;
+                    text-decoration: none;
+                    padding-bottom: 20px;
+                    padding-top: 10px;
+                }
+                    
+                .contact-info__phone {
+                    display: block;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    font-family: "TT Lakes";
+                    font-weight: bold;
+                    font-size: 24px;
+                    line-height: 32px;
+                    letter-spacing: -0.6000000238418579px;
+                    color: #1B1C21;
+                    text-decoration: none;
+                }
+    
+                .buttons-lang {
+                    display: flex;
+                    background: inherit;
+                     
+                    .buttons-lang__button {
+                        font-family: "TT Lakes";
+                        font-size: 16px;
+                        line-height: 24px;
+                        letter-spacing: -0.20000000298023224px;
+                        padding-right: 10px;
+                    }
+                        
+                    .buttons-lang__button:hover {
+                        color: #7E7E82;
+                    }
+                
+                    .button--lang-active {
+                        color: #7E7E82;
+                    }
+                }
+                    
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1119px) {
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+    padding-top: 12.519vh;;
+
+           .footer-buttons {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding-bottom: 10px;
+                justify-content: space-between;
+                width: 50%;
+            }
+
+            .contact-info__mail {
+                height: 24px;
+                width: 106px;
+                color: #1B1C21;
+                font-family: "TT Lakes";
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: -0.20000000298023224px;
+                text-decoration: none;
+                padding-bottom: 20px;
+                padding-top: 10px;
+            }
+                
+            .contact-info__phone {
+                display: block;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                font-family: "TT Lakes";
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 32px;
+                letter-spacing: -0.6000000238418579px;
+                color: #1B1C21;
+                text-decoration: none;
+            }
+
+            .buttons-lang {
+                display: flex;
+                background: inherit;
+                 
+                .buttons-lang__button {
+                    font-family: "TT Lakes";
+                    font-size: 16px;
+                    line-height: 24px;
+                    letter-spacing: -0.20000000298023224px;
+                    padding-right: 10px;
+                }
+                    
+                .buttons-lang__button:hover {
+                    color: #7E7E82;
+                }
+            
+                .button--lang-active {
+                    color: #7E7E82;
+                }
+            }
+                
+}
+
+}
+
+@media (min-width: 1120px) and (max-width: 1920px) {
+
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        padding-left: 24px;
+        padding-top: 12.519vh;
+    
+               .footer-buttons {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    padding-bottom: 10px;
+                    justify-content: space-between;
+                    width: 50%;
+                }
+    
+                .contact-info__mail {
+                    height: 24px;
+                    width: 106px;
+                    color: #1B1C21;
+                    font-family: "TT Lakes";
+                    font-size: 16px;
+                    line-height: 24px;
+                    letter-spacing: -0.20000000298023224px;
+                    text-decoration: none;
+                    padding-bottom: 20px;
+                    padding-top: 10px;
+                }
+                    
+                .contact-info__phone {
+                    display: block;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    font-family: "TT Lakes";
+                    font-weight: bold;
+                    font-size: 24px;
+                    line-height: 32px;
+                    letter-spacing: -0.6000000238418579px;
+                    color: #1B1C21;
+                    text-decoration: none;
+                }
+    
+                .buttons-lang {
+                    display: flex;
+                    background: inherit;
+                     
+                    .buttons-lang__button {
+                        font-family: "TT Lakes";
+                        font-size: 16px;
+                        line-height: 24px;
+                        letter-spacing: -0.20000000298023224px;
+                        padding-right: 10px;
+                    }
+                        
+                    .buttons-lang__button:hover {
+                        color: #7E7E82;
+                    }
+                
+                    .button--lang-active {
+                        color: #7E7E82;
+                    }
+                }
+                    
+    }
+
+}
