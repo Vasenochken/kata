@@ -6,9 +6,9 @@
         <meta name="description" content="Мы являемся авторизованным серивсным центром по ремонту техники Dell">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Услуги и сервисы</title>
-    <script defer src="main.09ce00a4a3bfe8a09ffc.js"></script></head>
+    <script defer src="main.56378b895674078f8502.js"></script></head>
     <body>
-        <aside class="mobile-menu hide">
+        <aside class="mobile-menu">
             <header class="mobile-header">
                 <button class="button button--icon-close"></button>
                 <svg class="logo"></svg>
@@ -63,7 +63,6 @@
                 </ul>
             </footer>
         </aside>
-        <div class="container">
         <header class="header-page">
             <div class="header-wrapper left">
                 <button class="button button--icon-burger"></button>
@@ -77,13 +76,54 @@
                 <button class="button button--icon-status"></button>
             </div>
         </header>
-        <main class="main-content">    
+
+
+
+
+
+        <main class="main-content">
+            <div class="modal-window">
+                <button class="button button--icon-close-modal"></button>
+                <div class="modal-window-wrapper">
+                <h1 class="modal-window__title">Обратная связь</h1>
+                <form class="modal-window__forms">
+                    <input class="modal-window__form form--name" type="text" name="name" placeholder="Имя">
+                    <input class="modal-window__form form--tel" type="tel" name="tell" placeholder="Телефон">
+                    <input class="modal-window__form form--mail" type="email" name="mail" placeholder="Электронная почта">
+                    <textarea class="modal-window__form form--comment" placeholder="Сообщение"></textarea>
+                </form>
+                <p class="modal-window__text">
+                Нажимая “отправить”, вы даете согласие на <span class="modal-window__text text--important">обработку персональных 
+                данных</span> и соглашаетесь с нашей <span class="modal-window__text text--important">политикой конфиденциальности</span>
+                </p>
+                <button class="modal-window__button--send">Отправить</button>
+                </div>
+            </div>
+
+            <div class="modal-window call">
+                <button class="button button--icon-close-modal--call"></button>
+                <div class="modal-window-wrapper">
+                <h1 class="modal-window__title">Заказать звонок</h1>
+                <form class="modal-window__forms">
+                    <input class="modal-window__form form--tel" type="tel" name="tell" placeholder="Телефон">
+                </form>
+                <p class="modal-window__text">
+                Нажимая “отправить”, вы даете согласие на <span class="modal-window__text text--important">обработку персональных 
+                данных</span> и соглашаетесь с нашей <span class="modal-window__text text--important">политикой конфиденциальности</span>
+                </p>
+                <button class="modal-window__button--send">Отправить</button>
+                </div>
+            </div>
+
+
+
+
           <div class="main-content__header-title">
                 <h1 class="header-title__title-text">Услуги и сервисы</h1>
-                <label class="label-button">
+                <label class="label-button--enroll">
                     Оставить заявку<button class="button button--icon-enroll"></button>
                 </label>
-                <label class="label-button">
+                <label class="label-button--status">
                     Проверить статус<button class="button button--icon-status"></button>
                 </label>
           </div>
@@ -349,6 +389,5 @@
             <p class="footer-page__text">Политика конфиденциальности</p>
             <p class="footer-page__text">Информация, размещенная на данной странице, не является публичной офертой</p>
         </footer>
-        </div>
     </body>
 </html>
