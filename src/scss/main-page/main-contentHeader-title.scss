@@ -14,7 +14,11 @@
       padding-left: 5.000vw;
     }
 
-    .label-button {
+    .label-button--enroll {
+      display: none;
+    }
+
+    .label-button--status {
       display: none;
     }
 
@@ -47,7 +51,11 @@
         color: #1B1C21;
       }
 
-      .label-button {
+      .label-button--enroll {
+        display: none;
+      }
+
+      .label-button--status {
         display: none;
       }
   
@@ -83,7 +91,7 @@
         margin-right: auto;
       }
 
-      .label-button {
+      .label-button--enroll {
            display: flex;
            flex-direction: row;
            align-items: center;
@@ -94,6 +102,18 @@
            line-height: 24px;
            letter-spacing: -0.20000000298023224px;
       }
+
+      .label-button--status {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.556vw;
+        font-family: "TT Lakes";
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.20000000298023224px;
+   }
   
   }
   

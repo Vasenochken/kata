@@ -6,11 +6,67 @@
         <meta name="description" content="Мы являемся авторизованным серивсным центром по ремонту техники Dell">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Услуги и сервисы</title>
-    <script defer src="main.3bd8729fb71c32e6cfad.js"></script></head>
+    <script defer src="main.09ce00a4a3bfe8a09ffc.js"></script></head>
     <body>
+        <aside class="mobile-menu hide">
+            <header class="mobile-header">
+                <button class="button button--icon-close"></button>
+                <svg class="logo"></svg>
+                <button class="button button--icon-search"></button>
+            </header>
+                <nav class="nav-mobile">
+                    <ul class="nav-mobile__list-menu">
+                        <li class="nav-mobile__item-menu item-menu--current">
+                             <a class="nav-mobile__link-menu link-menu--active" href="#">Ремонт техники</a>                   
+                        </li> 
+                        <li class="nav-mobile__item-menu">
+                            <a class="nav-mobile__link-menu" href="#">Услуги и сервисы</a>
+                        </li>
+                        <li class="nav-mobile__item-menu">
+                            <a class="nav-mobile__link-menu" href="#">Корпоративным клиентам</a>
+                        </li>
+                        <li class="nav-mobile__item-menu">
+                            <a class="nav-mobile__link-menu" href="#">Продавцам техники</a>
+                        </li>
+                        <li class="nav-mobile__item-menu">
+                            <a class="nav-mobile__link-menu" href="#">Партнерам</a>
+                        </li>
+                        <li class="nav-mobile__item-menu">
+                            <a class="nav-mobile__link-menu" href="#">Производителям</a>
+                        </li>
+                        <li class="nav-mobile__item-menu">
+                            <a class="nav-mobile__link-menu" href="#">Наши сервисные центры</a>
+                        </li>
+                        <li class="nav-mobile__item-menu">
+                            <a class="nav-mobile__link-menu" href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </nav> 
+            <footer class="contact-info">
+                <div class="footer-buttons">
+                    <button class="button button--icon-call-mobile"></button>
+                    <button class="button button--icon-chat-mobile"></button>
+                    <button class="button button--icon-login-mobile"></button>
+                </div>
+                <a class="contact-info__mail" href="mailto:mail@cps.com">mail@cps.com</a>
+                <a class="contact-info__phone" href="tel:8 800 890 8900">8 800 890 8900</a>
+                <ul class="buttons-lang">
+                    <li class="buttons-lang__item">
+                        <button class="buttons-lang__button button--lang-ru button--lang-active">RU</button>
+                    </li>
+                    <li class="buttons-lang__item">
+                        <button class="buttons-lang__button button--lang-en">EN</button>
+                    </li>
+                    <li class="buttons-lang__item">
+                        <button class="buttons-lang__button button--lang-ch">CH</button>
+                    </li>
+                </ul>
+            </footer>
+        </aside>
+        <div class="container">
         <header class="header-page">
             <div class="header-wrapper left">
-                <button class="button button--icon-menu"></button>
+                <button class="button button--icon-burger"></button>
                 <svg class="logo"></svg>
             </div>
             <div class="header-wrapper right">
@@ -21,7 +77,7 @@
                 <button class="button button--icon-status"></button>
             </div>
         </header>
-        <main class="main-content">
+        <main class="main-content">    
           <div class="main-content__header-title">
                 <h1 class="header-title__title-text">Услуги и сервисы</h1>
                 <label class="label-button">
@@ -48,7 +104,7 @@
                     <li class="main-content__item-menu">
                         <a class="main-content__link-menu" href="#">Специальные цены</a>
                     </li>
-                    <li class="main-content__item-menu">
+                    <li class="main-content__item-menu item-menu--last">
                         <a class="main-content__link-menu" href="#">Отзывы</a>
                     </li>
                 </ul>
@@ -58,9 +114,9 @@
                     <p class="main-content__text-p1">Мы являемся авторизованным сервисным центром по ремонту техники
                     Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
                     <p class="main-content__text-p2">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера
-                        <span class="main-content__text-p2--hidden">, что подтверждает большое количество постоянных клиентов.
-                    Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою
-                    очередь, советуют нас родным и близким.</span></p>
+                        <span class="main-content__text-p2--hidden">, что подтверждает большое количество постоянных клиентов. 
+                            Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
+                        </span></p>
                     <button class="button-readmore">Читать далее</button>
                 </div>
                 <div class="main-content__photo">
@@ -69,8 +125,8 @@
             </article>
             <section class="brands">
                 <h2 class="subtitle">Ремонт техники различных брендов</h2>
-                <div class="brands swiper">
-                    <div class="swiper-wrapper">
+                <div class="swiper">
+                    <div class="swiper-wrapper-brands swiper-wrapper">
                         <div class="swiper-slide brands-slide">
                             <img class="brands__icon" src="9dd2630bc5a16f6fcaa1.svg">
                             <button class="button-swiper"></button>
@@ -118,11 +174,12 @@
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
+                <button class="button-viewmore">Показать всё</button>
             </section>
             <section class="devices">
                 <h2 class="subtitle">Ремонт различных видов техники</h2>
-                <div class="devices swiper ">
-                    <div class="swiper-wrapper">
+                <div class="swiper swiper--devices">
+                    <div class="swiper-wrapper swiper-wrapper--devices">
                         <div class="swiper-slide devices-slide">
                             <p class="swiper-slide__text">Ремонт ноутбуков</p>
                             <button class="button-swiper button-swiper--devices"></button>
@@ -142,11 +199,12 @@
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
+                <button class="button-viewmore">Показать всё</button>
             </section>
             <section class="price">
                 <h2 class="subtitle">Цены на услуги</h2>
-                <div class="price swiper">
-                    <div class="swiper-wrapper">
+                <div class="swiper swiper--price">
+                    <div class="swiper-wrapper swiper-wrapper--price">
                         <div class="swiper-slide swiper-slide--price">
                             <span class="swiper-slide__text-wrapper">
                                 <p class="text-wrapper__title">Ремонтные услуги</p>
@@ -161,8 +219,7 @@
                                 <p class="text-wrapper__title">Срок</p>
                                 <p class="text-wrapper__description">30-120 мин</p>
                             </span>
-                            <button class="button-swiper button-swiper--price">Заказать
-                            </button>
+                            <button class="swiper-slide--price__button ">Заказать</button>
                             </div>
                         </div>
                         <div class="swiper-slide swiper-slide--price">
@@ -179,8 +236,7 @@
                                 <p class="text-wrapper__title">Срок</p>
                                 <p class="text-wrapper__description">30-120 мин</p>
                             </span>
-                            <button class="button-swiper button-swiper--price">Заказать
-                            </button>
+                            <button class="swiper-slide--price__button ">Заказать</button>
                             </div>
                         </div>
                         <div class="swiper-slide swiper-slide--price">
@@ -197,8 +253,7 @@
                                 <p class="text-wrapper__title">Срок</p>
                                 <p class="text-wrapper__description">30-120 мин</p>
                             </span>
-                            <button class="button-swiper button-swiper--price">Заказать
-                            </button>
+                            <button class="swiper-slide--price__button ">Заказать</button>
                             </div>
                         </div>
                         <div class="swiper-slide swiper-slide--price">
@@ -215,8 +270,7 @@
                                 <p class="text-wrapper__title">Срок</p>
                                 <p class="text-wrapper__description">30-120 мин</p>
                             </span>
-                            <button class="button-swiper button-swiper--price">Заказать
-                            </button>
+                            <button class="swiper-slide--price__button ">Заказать</button>
                             </div>
                         </div>
                         <div class="swiper-slide swiper-slide--price">
@@ -233,16 +287,56 @@
                                 <p class="text-wrapper__title">Срок</p>
                                 <p class="text-wrapper__description">30 мин</p>
                             </span>
-                            <button class="button-swiper button-swiper--price">Заказать
-                            </button>
+                            <button class="swiper-slide--price__button">Заказать</button>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
+                <div class="service-table">
+                    <span class="service-table__title">
+                        <p class="service-table__title title--1">Ремонтные услуги</p>
+                        <p class="service-table__title title--2">Цена</p>
+                        <p class="service-table__title title--3">Срок</p>
+                    </span>
+                    <span class="service-table__row">
+                        <p class="service-table__column column--1">Диагностика</p>
+                        <p class="service-table__column column--2">Беспалтно</p>
+                        <p class="service-table__column column--3">30 мин</p>
+                        <button class="service-table__cell--button">Заказать</button>
+                    </span>
+                    <div class="service-table__border"></div>
+                    <span class="service-table__row">
+                        <p  class="service-table__column column--1">Замена дисплея</p >
+                        <p  class="service-table__column column--2">1000 ₽</p >
+                        <p  class="service-table__column column--3">30-120 мин</p >
+                        <button class="service-table__cell--button">Заказать</button>
+                    </span>
+                    <div class="service-table__border"></div>
+                    <span class="service-table__row">
+                        <p class="service-table__column column--1">Замена полифонического динамика</p>
+                        <p class="service-table__column column--2">1000 ₽</p>
+                        <p class="service-table__column column--3">30-120 мин</p>
+                        <button class="service-table__cell--button">Заказать</button>
+                    </span>
+                    <div class="service-table__border"></div>
+                    <span class="service-table__row">
+                        <p class="service-table__column column--1">Тестирование с выдачей технического заключения</p>
+                        <p class="service-table__column column--2">1000 ₽</p>
+                        <p class="service-table__column column--3">30-120 мин</p>
+                        <button class="service-table__cell--button">Заказать</button>
+                    </span>
+                    <div class="service-table__border"></div>
+                    <span class="service-table__row">
+                        <p class="service-table__column column--1">Замена программного обеспечения</p>
+                        <p class="service-table__column column--2">1000 ₽</p>
+                        <p class="service-table__column column--3">30-120 мин</p>
+                        <button class="service-table__cell--button">Заказать</button>
+                    </span>
+                </div>
                 <div class="price-info">
                     <p class="price-info__description-text">Все цены указаны с учетом НДС.
-                        Стоимость ремонта указана на единичную услугу. 
+                        Стоимость ремонта указана на единичную услугу.
                         Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.
                     </p>
                     <button class="price-info__button-offer">Получить коммерческое предложение</button>
@@ -255,5 +349,6 @@
             <p class="footer-page__text">Политика конфиденциальности</p>
             <p class="footer-page__text">Информация, размещенная на данной странице, не является публичной офертой</p>
         </footer>
+        </div>
     </body>
 </html>

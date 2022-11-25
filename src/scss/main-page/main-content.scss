@@ -6,20 +6,14 @@
 @import './section-price/price-info';
 @import './section-price/service-table';
 @import './mobile-menu/mobileMenu';
+@import './modal-window';
 
 @media (min-width:320px) and (max-width: 767px) {
-
-    .container {
 
 .main-content {
     padding-top: 24px;
     padding-bottom: 40px;
 }
-
-}
-    .hide {
-        display: none;
-    }
 
 }
 

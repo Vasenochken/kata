@@ -1,63 +1,27 @@
-// const openMenu = document.querySelector('.button.button--icon-burger');
-// const mobileMenu = document.querySelector('.mobile-menu');
-// const closeMenu = mobileMenu.querySelector('.button.button--icon-close');
-// // const main = document.querySelector('main');
-// const asideBar = document.querySelector('aside');
-// // const footer = document.querySelector('.footer-page');
-// const headerPage = document.querySelector('.header-page');
+const menu = document.querySelector('.mobile-menu');
+const btnOpen = document.querySelector('.button.button--icon-burger');
+const btnClose = document.querySelector('.button.button--icon-close');
 
-// openMenu.onclick = function () {
-//     mobileMenu.classList.remove('hide');
-//     console.log('test');
-// };
+btnClose.onclick = function () {
+    menu.classList.toggle('move');
+};
 
-// closeMenu.onclick = function () {
-//     mobileMenu.classList.add('hide');
-// };
+const toggleMenu = function () {
+    menu.classList.toggle("move");
+}
 
-// asideBar.addEventListener('click', (evt) => {
-//     console.log('жму асайд');
+btnOpen.addEventListener("click", function (e) {
+    e.stopPropagation();
+    toggleMenu();
+});
 
-    // headerPage.addEventListener('click', () => {
-    //     console.log('клик на хедер');
-    //     mobileMenu.classList.add('hide');
-    // });
-    // const target = evt.target;
-    // if (target.className === 'header-page')
-    // {
-    //     console.log('priv');
-    // }
+document.addEventListener("click", function (e) {
+    const target = e.target;
+    const its_menu = target == menu || menu.contains(target);
+    const its_btnMenu = target == btnOpen;
+    const menu_is_active = menu.classList.contains("move");
 
-    // document.addEventListener('click', () => {
-    //     mobileMenu.classList.remove('hide');
-    // });
-
-    // openMenu.onclick = function () {
-    // mobileMenu.classList.remove('hide');
-    // };
-
-    // main.addEventListener('click', () => {
-    //     mobileMenu.classList.remove('hide');
-    // });
-
-    // footer.addEventListener('click', () => {
-    //     mobileMenu.classList.remove('hide');
-    // });
-
-    // closeMenu.onclick = function () {
-    // mobileMenu.classList.add('hide');
-    // };
-// });
-
-// headerPage.addEventListener('click', () => {
-//     const proverka = mobileMenu.classList.contains('hide');
-//     console.log('клик на хедер');
-//     console.log(proverka);
-//     if (proverka != true) {
-//         mobileMenu.classList.add('hide');
-//     }
-// });
-
-// document.addEventListener('click', () => {
-//     mobileMenu.classList.remove('hide');
-// });
+    if (!its_menu && !its_btnMenu && menu_is_active) {
+        toggleMenu();
+    }
+});
